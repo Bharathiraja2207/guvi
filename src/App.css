@@ -1,0 +1,68 @@
+blockquote::first-letter {
+  text-transform: uppercase;
+ 
+}
+.navbar{
+  width: 100%;
+}
+.button_nav{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+body{
+  background-color: #f3f3f3;
+}
+.parrent{
+  display: flex;
+  margin-top: 20%;
+  margin-left: 42%;
+}
+/* login&&signin */
+.loginfield {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.login-card {
+  margin: 20px;
+  padding: 50px;
+
+}
+.signin-card {
+  margin: 20px;
+  padding: 50px;
+
+}
+.newpassword{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+/* .card .alreadyuser:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: dodgerblue
+} */
+.loginform {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
